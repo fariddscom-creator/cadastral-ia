@@ -1,0 +1,7 @@
+# API Dashboard Vision AI + SIG Cadastre Algérien v1.0 - Routes Files
+
+Route /dashboard/files → Liste districts extraits Vue d'ensemble extraction Vision AI + géoréférencement SIG Google Maps Places API.
+
+---
+
+*Voir ../API.md pour liste complète routes endpoints !*
