@@ -1,19 +1,53 @@
-.env
-.env.*
-!.env.example
-.next/
+```
+# Dependencies
 node_modules/
-data/
-croquis/
-outputs/
-tmp/
-backups/
-*.xlsx
-*.pdf
-*.log
-*.tmp
-*.tsbuildinfo
-*.key
-*.pem
+
+# Build artifacts
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
 .vscode/
-.cache/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Logs
+*.log
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.nyc_output/
+coverage/
+
+# Distribution / packaging
+*.tar.gz
+*.whl
+*.egg-info/
+```
